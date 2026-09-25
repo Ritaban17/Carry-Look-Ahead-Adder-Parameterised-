@@ -74,6 +74,13 @@ $$S_i = P_i \oplus C_i$$
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Ritaban17/Carry-Look-Ahead-Adder-Parameterised-/issues).
 
+## 👤 Author
+
+* **Ritaban Pal**  
+* B.Tech Electrical Engineering | VLSI & RTL Design Enthusiast
+
+---
+
 ## 📄 License
 
 This project is open-source and available under the MIT License.
