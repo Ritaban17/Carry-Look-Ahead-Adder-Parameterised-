@@ -1,0 +1,17 @@
+read_verilog test.v cla.v
+
+hierarchy -check -top cla
+
+proc; opt; fsm; opt; memory; opt
+
+techmap; opt
+
+dfflibmap -liberty /home/ritabanpal/OpenLaneUser/designs/reproducibles/2065/issue_reproducible/pdk/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu9t5v0/liberty/gf180mcu_fd_sc_mcu9t5v0__ff_n40C_5v50.lib
+
+abc -liberty /home/ritabanpal/OpenLaneUser/designs/reproducibles/2065/issue_reproducible/pdk/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu9t5v0/liberty/gf180mcu_fd_sc_mcu9t5v0__ff_n40C_5v50.lib
+
+clean
+
+show cla
+
+write_verilog cla_synth.v
