@@ -19,7 +19,7 @@ The Carry Look-Ahead Adder solves this by calculating the carry signals in advan
 ## 🛠️ Prerequisites
 
 To simulate and view the waveforms for this project, you will need an HDL simulator. Popular options include:
-* [Icarus Verilog (iverilog)](https://steveicarus.github.io/iverilog/) + [GTKWave](http://gtkwave.sourceforge.net/) (Open Source)
+* Verilator/[Icarus Verilog (iverilog)](https://steveicarus.github.io/iverilog/) + [GTKWave](http://gtkwave.sourceforge.net/) (Open Source)
 * ModelSim / QuestaSim
 * Xilinx Vivado
 
